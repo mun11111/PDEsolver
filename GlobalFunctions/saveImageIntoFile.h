@@ -9,4 +9,8 @@ using namespace std;
 bool saveImageIntoFile(string fname, const double A[],
                       int arraySizeX, int arraySizeY);
 
+bool saveImageIntoPPM(string fname, const double A[],
+                      int arraySizeX, int arraySizeY);
+
+
 #endif

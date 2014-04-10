@@ -36,6 +36,7 @@ class Simulation2DClass:public Field2DClass{
       // This function make the snapshot of data / exact solution
       // and save it into given file
       bool saveSnapShot( string fname );
+      bool saveSnapShotToPPM( string fname );
       bool saveSnapShotExactSolution( string fname );
 
       double getActualTime( void ){ return actualTime; }

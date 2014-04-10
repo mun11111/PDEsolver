@@ -68,6 +68,9 @@ bool Simulation2DClass::saveSnapShot( string fname ){
    return saveImageIntoFile(fname, Phi, xGridSize, yGridSize);
 }
 
+bool Simulation2DClass::saveSnapShotToPPM( string fname ){
+    return saveImageIntoPPM(fname, Phi, xGridSize, yGridSize);
+}
 
 bool Simulation2DClass::saveSnapShotExactSolution( string fname ){ 
 
